@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        
+        <link rel="stylesheet" href="./Calc_Style.css">
+    </head>
+    <body>  
+        <div align="center">
+        <h1>Calc</h1>
+        <form name="calcform" border="1"> 
+            <fieldset>
+                <input type="text" name="txt1" style="text-align:right"><br> 
+                <input type="button" name="btn7" value=7 onclick="displaynum(btn7.value)">
+                <input type="button" name="btn8" value=8 onclick="displaynum(btn8.value)">
+                <input type="button" name="btn9" value=9 onclick="displaynum(btn9.value)">
+                <input type="button" name="btndiv" value=/ onclick="displaynum(btndiv.value)"><br>
+                <input type="button" name="btn4" value=4 onclick="displaynum(btn4.value)">
+                <input type="button" name="btn5" value=5 onclick="displaynum(btn5.value)">
+                <input type="button" name="btn6" value=6 onclick="displaynum(btn6.value)">
+                <input type="button" name="btnmulti" value=* onclick="displaynum(btnmulti.value)"><br>
+                <input type="button" name="btn1" value=1 onclick="displaynum(btn1.value)">
+                <input type="button" name="btn2" value=2 onclick="displaynum(btn2.value)">
+                <input type="button" name="btn3" value=3 onclick="displaynum(btn3.value)">
+                <input type="button" name="btnsub" value=- onclick="displaynum(btnsub.value)"><br>
+                <input type="button" name="btn0" value=0 onclick="displaynum(btn0.value)">
+                <input type="button" name="btndot" value=. onclick="displaynum(btndot.value)">
+                <input type="button" name="btnadd" value=+ onclick="displaynum(btnadd.value)">
+                <input type="button" name="btneql" value== onclick="txt1.value=eval(txt1.value)">
+                <input type="button" name="btndelete" value=Del onclick="txt1.value=''">
+               </fieldset>     
+        </form>
+           </div>        
+      <script src="./Calc.js"></script>
+    </body>
+</html> 
