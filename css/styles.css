@@ -1,0 +1,15 @@
+@import url(_fonts.css);
+@import url(_header.css);
+
+p,h1 {
+    font-family: 'Merriweather', serif;
+    color:white;
+;
+}
+body{
+    background: #dadfea;
+}
+ul,a{
+    font-family: 'Merriweather', serif;
+    color:#d03838;
+}
